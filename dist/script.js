@@ -20,7 +20,7 @@ shuffled.forEach((card,index)=>{
   grid.append(card);
 });
 
-if(cards.length>=5)grid.classList.add('compact-grid');
+if(cards.length>=4)grid.classList.add('compact-grid');
 
 if(!matchMedia('(prefers-reduced-motion: reduce)').matches){
   addEventListener('pointermove',event=>{
