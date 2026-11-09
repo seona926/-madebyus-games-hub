@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="친구들과 함께 만든 작고 이상하고 재미있는 웹게임 모음">
+  <meta name="theme-color" content="#151515">
+  <title>Made by Us · Games</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Made by Us 게임 홈">
+      <span class="brand-mark">M</span>
+      <span>MADE BY US</span>
+    </a>
+    <p><span class="status-dot"></span> FRIENDS' GAME ARCHIVE</p>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">PLAYGROUND / 001</p>
+        <h1 id="page-title">우리들이 만든<br><em>조금 이상한</em> 게임들.</h1>
+        <p class="intro">퇴근 후, 주말 밤, 혹은 회의가 길어질 때 만든 작은 세계들입니다. 마음에 드는 게임을 골라 새 창에서 바로 플레이하세요.</p>
+      </div>
+      <div class="hero-orbit" aria-hidden="true">
+        <span class="orbit orbit-a"></span>
+        <span class="orbit orbit-b"></span>
+        <span class="orbit-dot"></span>
+        <strong>03</strong>
+        <small>GAMES<br>ONLINE</small>
+      </div>
+    </section>
+
+    <section class="collection" aria-labelledby="collection-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">SELECT A GAME</p>
+          <h2 id="collection-title">오늘은 뭘 할까요?</h2>
+        </div>
+        <p>게임을 누르면 새 창에서 열립니다.</p>
+      </div>
+
+      <div class="game-grid" id="gameGrid">
+        <a class="game-card card-orange" href="https://flipfruits.madebyus.kr/" target="_blank" rel="noopener noreferrer" aria-label="FlipFruits 새 창에서 열기">
+          <figure class="game-visual">
+            <img src="./assets/flipfruits.png" alt="과일 카드와 종이 놓인 FlipFruits 게임 콘셉트" width="1536" height="864">
+            <span class="game-number">01</span>
+          </figure>
+          <div class="game-info">
+            <div class="game-meta"><span>REACTION</span><span>1–4 PLAYERS</span></div>
+            <h3>FlipFruits</h3>
+            <p>과일이 5개일 때 빠르게 종을 치세요!</p>
+            <div class="play-link"><span>PLAY NOW</span><i aria-hidden="true">↗</i></div>
+          </div>
+        </a>
+
+        <a class="game-card card-red" href="https://dance-tower.pages.dev/" target="_blank" rel="noopener noreferrer" aria-label="진상기차 새 창에서 열기">
+          <figure class="game-visual">
+            <img src="./assets/train.png" alt="감성과 소란이 공존하는 진상기차 게임 콘셉트" width="1536" height="864">
+            <span class="game-number">02</span>
+          </figure>
+          <div class="game-info">
+            <div class="game-meta"><span>STORY</span><span>CHAOS RIDE</span></div>
+            <h3>진상기차</h3>
+            <p>이곳은 감성기차일까, 진상기차일까? 직접 타보자.</p>
+            <div class="play-link"><span>BOARD NOW</span><i aria-hidden="true">↗</i></div>
+          </div>
+        </a>
+
+        <a class="game-card card-green" href="https://cellchase.madebyus.kr/" target="_blank" rel="noopener noreferrer" aria-label="엑셀 술래잡기 새 창에서 열기">
+          <figure class="game-visual">
+            <img src="./assets/cellchase.png" alt="스프레드시트 셀 안에서 펼쳐지는 술래잡기 게임 콘셉트" width="1536" height="864">
+            <span class="game-number">03</span>
+          </figure>
+          <div class="game-info">
+            <div class="game-meta"><span>MULTIPLAYER</span><span>OFFICE STEALTH</span></div>
+            <h3>엑셀 술래잡기</h3>
+            <p>아니 팀장님, 저 일하느라 표정이 초조한 거라고요...</p>
+            <div class="play-link"><span>OPEN SHEET</span><i aria-hidden="true">↗</i></div>
+          </div>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>MADE WITH FRIENDS, CURIOSITY &amp; TOO MUCH COFFEE.</p>
+    <p>© 2026 MADE BY US</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
